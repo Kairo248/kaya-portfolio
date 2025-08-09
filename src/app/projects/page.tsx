@@ -19,7 +19,7 @@ export default function Projects() {
       title: "Smart Expense Tracker",
       description:
         "A fullstack expense tracker with AI-powered budgeting, built using React, Spring Boot, and MySQL.",
-      image: "/projects/expense-tracker.png",
+      image: "expense.png",
       demoLink: "#",
       category: "personal",
     },
