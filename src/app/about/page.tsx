@@ -59,7 +59,7 @@ export default function AboutPage() {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl font-bold mb-4 text-yellow-400"
+          className="text-3xl font-bold mb-4 text-[#F4AC38]"
         >
           My Background
         </motion.h2>
@@ -84,7 +84,7 @@ export default function AboutPage() {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl font-bold mb-8 text-yellow-400"
+          className="text-3xl font-bold mb-8 text-[#F4AC38]"
         >
           Work Experience
         </motion.h2>
@@ -124,7 +124,7 @@ export default function AboutPage() {
     whileInView={{ x: 0, opacity: 1 }}
     transition={{ duration: 0.6 }}
     viewport={{ once: true }}
-    className="text-3xl font-bold mb-8 text-yellow-400"
+    className="text-3xl font-bold mb-8 text-[#F4AC38]"
   >
     Projects I’ve Worked On
   </motion.h2>
@@ -148,9 +148,9 @@ export default function AboutPage() {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ delay: i * 0.1 }}
           viewport={{ once: true }}
-          className={`border p-6 rounded-lg hover:border-yellow-400 transition cursor-pointer ${
+          className={`border p-6 rounded-lg hover:border-[#F4AC38] transition cursor-pointer ${
           isMoreLink
-            ? "bg-cyan-400  text-white"
+            ? "bg-[#F4AC38]  text-white"
             : "bg-white/5 border-white/10 text-white/80"
         }`}
         >
@@ -180,7 +180,7 @@ export default function AboutPage() {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl font-bold mb-6 text-yellow-400"
+          className="text-3xl font-bold mb-6 text-[#F4AC38]"
         >
           Tools & Technologies
         </motion.h2>
