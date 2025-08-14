@@ -150,7 +150,7 @@ export default function AboutPage() {
           viewport={{ once: true }}
           className={`border p-6 rounded-lg hover:border-yellow-400 transition cursor-pointer ${
           isMoreLink
-            ? "bg-red-700  text-yellow-400"
+            ? "bg-cyan-400  text-white"
             : "bg-white/5 border-white/10 text-white/80"
         }`}
         >
