@@ -43,7 +43,7 @@ export default function Projects() {
       description:
         "A stylish product showcase for Thembi. The sites include smooth animations, clear navigation, and responsive design to highlight their stories, services, and products effectively.",
       image: "/thembi.png",
-      demoLink: "#",
+      demoLink: "https://thembi-page.vercel.app/",
       category: "client",
     },
     {
@@ -61,6 +61,14 @@ export default function Projects() {
       image: "/happierleads.png",
       demoLink: "https://admin.happierleads.com",
       category: "work",
+    },
+    {
+      title: "OJS-Studios",
+      description:
+        "A creative agency website showcasing portfolio, services, and client testimonials with a sleek design.",
+      image: "/ojs.png",
+      demoLink: "https://ojs-studios.vercel.app/",
+      category: "client",
     },
     // Add more projects as needed
   ];
