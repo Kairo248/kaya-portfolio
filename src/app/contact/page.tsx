@@ -88,7 +88,7 @@ export default function ContactPage() {
       </video>
       </div>
 
-      <h1 className="text-4xl md:text-5xl font-bold mb-12 text-cyan-400 text-center">
+      <h1 className="text-4xl md:text-5xl font-bold mb-12 text-[#FDB417] text-center">
         Contact Me
       </h1>
 
@@ -103,24 +103,24 @@ export default function ContactPage() {
 
           <div className="space-y-6">
             <div className="flex items-center gap-4">
-              <FaEnvelope className="w-6 h-6 text-cyan-400" />
+              <FaEnvelope className="w-6 h-6 text-[#FDB417]" />
               <a
                 href="mailto:smithkaya404@gmail.com"
-                className="hover:text-cyan-300 transition"
+                className="hover:text-[#FDB417] transition"
               >
                 smithkaya404@gmail.com
               </a>
             </div>
 
             <div className="flex items-center gap-4">
-              <FaPhone className="w-6 h-6 text-cyan-400" />
-              <a href="tel:+27676359778" className="hover:text-cyan-300 transition">
+              <FaPhone className="w-6 h-6 text-[#FDB417]" />
+              <a href="tel:+27676359778" className="hover:text-[#FDB417] transition">
                 +27 67 635 9778
               </a>
             </div>
 
             <div className="flex items-center gap-4">
-              <FaMapMarkerAlt className="w-6 h-6 text-cyan-400" />
+              <FaMapMarkerAlt className="w-6 h-6 text-[#FDB417]" />
               <span>Cape Town, South Africa</span>
             </div>
           </div>
@@ -167,7 +167,7 @@ export default function ContactPage() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className={`w-full rounded-md px-4 py-2 bg-black/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-400 ${
+                className={`w-full rounded-md px-4 py-2 bg-black/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FDB417]0 ${
                   errors.email ? "border-2 border-red-500" : "border border-transparent"
                 }`}
                 placeholder="Your email"
@@ -185,7 +185,7 @@ export default function ContactPage() {
                 name="subject"
                 value={formData.subject}
                 onChange={handleChange}
-                className={`w-full rounded-md px-4 py-2 bg-black/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-400 ${
+                className={`w-full rounded-md px-4 py-2 bg-black/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FDB417] ${
                   errors.subject ? "border-2 border-red-500" : "border border-transparent"
                 }`}
                 placeholder="Subject"
@@ -203,7 +203,7 @@ export default function ContactPage() {
                 rows={5}
                 value={formData.message}
                 onChange={handleChange}
-                className={`w-full rounded-md px-4 py-2 bg-black/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-400 resize-none ${
+                className={`w-full rounded-md px-4 py-2 bg-black/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FDB417] resize-none ${
                   errors.message ? "border-2 border-red-500" : "border border-transparent"
                 }`}
                 placeholder="Write your message..."
@@ -213,7 +213,7 @@ export default function ContactPage() {
 
             <button
               type="submit"
-              className="w-full bg-cyan-500 hover:bg-cyan-600 transition text-black font-semibold py-3 rounded-md"
+              className="w-full bg-[#FDB417] hover:bg-[#FDB417] transition text-black font-semibold py-3 rounded-md"
             >
               Send Message
             </button>
