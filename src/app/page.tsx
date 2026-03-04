@@ -48,7 +48,7 @@ export default function HomePage() {
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-2 gap-4 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 relative z-10"
+          className="grid grid-cols-2 gap-3 sm:gap-5 lg:gap-6 sm:grid-cols-2 lg:grid-cols-3 relative z-10"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"

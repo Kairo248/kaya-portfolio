@@ -20,6 +20,13 @@ const clientProjects = [
       image: "/ufs.png",
       demoLink: "https://unshakeable-faith-cqhu.vercel.app/",
     },
+    {
+      title: "Mboniswa — Gospel Artist & Pastor",
+      description:
+        "Duo app: public site for music, sermons & events plus admin panel to create and manage content.",
+      image: "/mboniswa.png",
+      demoLink: "https://ps-mboniswa.vercel.app/",
+    },
     // add more client websites here
   ];
 
@@ -43,7 +50,7 @@ export default function ClientWebsitesSection() {
       </h2>
 
       <motion.div
-        className="grid grid-cols-2 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3"
+        className="grid grid-cols-2 gap-3 sm:gap-4 lg:gap-5 sm:grid-cols-2 lg:grid-cols-3"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
